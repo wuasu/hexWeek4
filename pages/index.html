@@ -117,14 +117,14 @@
             <div class="container">
                 <h2 class="section-title">聯名設計鏡框</h2>
                 <div class="main-content">
-                    <ul class="d-flex co-branding-row">
-                        <li class="list-item list-item-50 list-item-md-100">
+                    <ul class="co-branding-row">
+                        <li class="list-item list-item-50 list-item-md-100 list-item-sm-100">
                             <div class="">
                                 <img src="../assets/images/home-section4-1.png" alt="" />
                             </div>
                             <p>DOUBLE A+</p>
                         </li>
-                        <li class="list-item list-item-50 list-item-md-100">
+                        <li class="list-item list-item-50 list-item-md-100 list-item-sm-100">
                             <div>
                                 <img src="../assets/images/home-section4-2.png" alt="" />
                             </div>
@@ -137,11 +137,92 @@
     </section>
     <!-- section 顧客推薦 -->
     <section>
-    
+        <div class="recommend">
+            <div class="container">
+                <h2 class="main-title">顧客推薦</h2>
+                <div class="main-content">
+                    <div class="card-list">
+                        <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
+                            <div class="pic">
+                                <img src="../assets/images/home-section5-1.png" alt="" />
+                            </div>
+                            <div class="text">
+                                <span>Jessy</span>
+                                <p class="comment">眼鏡品質優良，下次還會想來這邊購買！</p>
+                                <p class="date">2021/06/20</p>
+                            </div>
+                        </div>
+                        <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
+                            <div class="pic">
+                                <img src="../assets/images/home-section5-2.png" alt="" />
+                            </div>
+                            <div class="text">
+                                <span>凱倫</span>
+                                <p class="comment">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                                <p class="date">2021/04/18</p>
+                            </div>
+                        </div>
+                        <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
+                            <div class="pic">
+                                <img src="../assets/images/home-section5-3.png" alt="" />
+                            </div>
+                            <div class="text">
+                                <span>悠悠</span>
+                                <p class="comment">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                                <p class="date">2020/12/25</p>
+                            </div>
+                        </div>
+                        <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
+                            <div class="pic">
+                                <img src="../assets/images/home-section5-4.png" alt="" />
+                            </div>
+                            <div class="text">
+                                <span>Kyuan</span>
+                                <p class="comment">服務很好，品質沒有任何問題，非常喜歡。</p>
+                                <p class="date">2020/10/31</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
     <!-- section 聯絡我們 -->
     <section>
-        
+        <div class="contact">
+            <div class="container">
+                <h2 class="main-title">聯絡我們</h2>
+                <div class="main-content list-item-50 list-item-md-576px list-item-sm-100">
+                <form action="">
+                     <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+                    <ul>
+                        <li>
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" required placeholder="陳小明">
+                        </li>
+                        <li>
+                            <label for="phone">聯絡電話</label>
+                            <input type="tel" id="phone" required placeholder="0912-345-678">
+                        </li>
+                        <li>
+                            <label for="email">電子郵件</label>
+                            <input type="email" id="email" required placeholder="example@email.com">
+                        </li>
+                        <li>
+                            <label for="opinion">意見反應</label>
+                            <textarea type="text" id="opinion" placeholder="請輸入您的意見"  rows="6"></textarea>
+                        </li>
+                        <li class="check">
+                            <input type="checkbox" name="privacy" id="privacy" required />
+                            <label for="privacy">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                        </li>
+                    </ul>
+                    <button class="submit-btn">確認送出</button>
+                </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="footer bg_primary">
         <div class="container_footer">
@@ -154,8 +235,8 @@
                         <li class="list-item"><a href="#">部落格</a></li>
                         <li class="list-item"><a href="#">常見問題</a></li>
                     </ul>
-                    <p><span class="material-symbols-outlined">call</span>0800-000-000 </p>
-                    <p><span class="material-symbols-outlined">mail</span>glasses@business.com</p>
+                    <p class="call"><span class="material-symbols-outlined">call</span>0800-000-000 </p>
+                    <p class="mail"><span class="material-symbols-outlined">mail</span>glasses@business.com</p>
                 </div>
     
                 <ul class="social_media">
