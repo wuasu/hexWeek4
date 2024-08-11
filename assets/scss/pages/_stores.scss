@@ -1,0 +1,84 @@
+.store {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  //border:1px solid #117ae2
+}
+
+.store-title {
+  color: var(--title-color);
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 16px;
+  margin-bottom: 32px;
+  border-left: 8px solid var(--decorate);
+}
+
+.store-search {
+  width: calc(100% / 3);
+  display: flex;
+  margin-bottom: 40px;
+}
+@media (max-width: 992px){
+.store-search {
+    width: 60%;
+  }
+}
+@media (max-width: 767px) {
+  .store-search {
+    width: 100%;
+  }
+}
+
+.store-search-label{
+  font-size: 24px;
+  margin-right: 16px;
+}
+.store-search-select{
+  flex-grow: 1;
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 0px;
+  border: 1px solid #CED4DA;
+  color: #495057;
+  opacity: 0.75;
+  appearance: none;
+  background: url(/assets/images/select-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 90% center;
+}
+.store-box .list-item {
+  padding: 0px 12px;
+}
+.store-box .card-list{
+  font-size: 20px;
+  row-gap: 48px;
+}
+
+.store-box  .title {
+  font-size: 24px;
+   border: solid 1px #00000020;
+  padding: 8px 24px;
+}
+
+.store-box .desc {
+  border: solid 1px #00000020;
+  padding: 20px 24px;
+}
+
+.card-text span{
+  margin-right: 3px;
+}
+.card-text .desc li {
+  display: flex;
+}
+
+.store-btn {
+  display: block;
+  font-size: 19px;
+  background: var(--title-color);
+  width: 100%;
+  color: var(--text-color);
+  text-align: center;
+  padding: 16px 0;
+}

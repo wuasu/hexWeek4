@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2024切版直播班week3-4</title>
-    <link rel="stylesheet" href="../assets/scss/style.css">
+    <title>2024切版直播班week3+4</title>
+    <!-- <link rel="stylesheet" href="../assets/scss/style.css"> -->
+    <link rel="stylesheet" href="../assets/scss/all.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
@@ -15,24 +16,7 @@
     />
 </head>
 <body>
-<div class="header">
-    <div class="header-container">
-        <div class="nav-content">
-            <div class="nav-logo">
-                <a href="#"><img src="../assets/images/logo-white.png" alt="logo-white"></a>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list d-flex">
-                    <li class="nav-item"><a href="#">系列鏡框</a></li>
-                    <li class="nav-item"><a href="#">門市據點</a></li>
-                    <li class="nav-item"><a href="#">部落格</a></li>
-                    <li class="nav-item"><a href="#">常見問題</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</div>
-
+    <%- include ('./layout/header') -%>
     <div class="banner">
         <div class="bn-img">
             <div class="container bn-content">
@@ -224,43 +208,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer bg_primary">
-        <div class="container_footer">
-            <div class="footer-content">
-                <div class="info-connect">
-                    <ul class="info-list">
-                        <li class="list-item"><a href="#">首頁</a></li>
-                        <li class="list-item"><a href="#">系列鏡框</a></li>
-                        <li class="list-item"><a href="#">門市據點</a></li>
-                        <li class="list-item"><a href="#">部落格</a></li>
-                        <li class="list-item"><a href="#">常見問題</a></li>
-                    </ul>
-                    <p class="call"><span class="material-symbols-outlined">call</span>0800-000-000 </p>
-                    <p class="mail"><span class="material-symbols-outlined">mail</span>glasses@business.com</p>
-                </div>
-    
-                <ul class="social_media">
-                    <li>
-                        <a href="#"><img src="../assets/images/ic-social-fb.png" alt="" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="../assets/images/ic_social_ig.png" alt="" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="../assets/images/ic_social_line.png" alt="" /></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="copyright">
-                <p>Copyright © 2020 Glasses.All rights reserved.</p>
-                <p><a href="#">隱私權政策</a></p>
-                <p><a href="#">服務條款</a></p>
-            </div>
-        </div>
-    </footer>
-    
-
-
+    <%- include ('./layout/footer') -%>
     
 </body>
 </html>

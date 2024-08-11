@@ -1,0 +1,149 @@
+// footer scss
+.bg_primary {
+    background: var(--primary);
+}
+
+.container_footer {
+    padding: 48px 12px 32px;
+}
+
+@media (max-width: 992px) {
+    .container_footer {
+        padding: 48px 36px 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container_footer {
+        padding: 24px 13px 24px;
+    }
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .info-list {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+    .footer .info-list {
+        display: none;
+    }
+}
+
+.footer .list-item a {
+    display: flex;
+    color: white;
+    padding: 16px 0px;
+}
+
+@media (max-width: 992px) {
+    .footer .list-item a {
+        padding: 12px 0px;
+    }
+}
+
+.footer .info-connect p {
+    font-size: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .footer .info-connect p {
+        font-size: 16px;
+    }
+}
+
+.footer .info-connect>p.call {
+    margin-bottom: 8px;
+}
+
+.footer .info-connect>p.mail {
+    margin-bottom: 32px;
+}
+
+
+.footer .info-connect p span {
+    display: inline-block;
+    font-size: 36px;
+    margin-right: 22px;
+}
+
+@media (max-width: 767px) {
+    .footer .info-contact p span {
+        font-size: 16px;
+        margin-right: 11px;
+    }
+}
+
+.footer .social_media {
+    display: flex;
+    gap: 32px;
+}
+
+@media (max-width: 767px) {
+    .footer .social_media {
+        gap: 16px;
+    }
+}
+
+.footer .social_media a {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+@media (max-width: 992px) {
+    .footer .social_media a {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer .social_media a {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.footer .copyright {
+    display: flex;
+    border-top: 1px solid white;
+    padding-top: 32px;
+    line-height: 21px;
+}
+
+@media (max-width: 767px) {
+    .footer .copyright {
+        flex-direction: column;
+        row-gap: 8px;
+        padding-top: 16px;
+    }
+}
+
+.footer .copyright p {
+    color: var(--text-color);
+}
+
+.footer .copyright p a {
+    display: block;
+    color: var(--text-color);
+}
+
+.footer .copyright>p:nth-of-type(1) {
+    margin-right: auto;
+}
+
+
+.footer .copyright>p:nth-of-type(2) a {
+    margin-right: 40px;
+}
