@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-  <link rel="stylesheet" href="/hexWeek4/assets/all-7046b0f8.css">
+  <link rel="stylesheet" href="/hexWeek4/assets/all-cf094f7f.css">
 </head>
 <body>
     <div class="header">
@@ -149,7 +149,7 @@
                             <div class="text">
                                 <span>Jessy</span>
                                 <p class="comment">眼鏡品質優良，下次還會想來這邊購買！</p>
-                                <p class="date">2021/06/20</p>
+                                <time class="date" datetime="2021-06-20">2021/06/20</time>
                             </div>
                         </div>
                         <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
@@ -159,7 +159,7 @@
                             <div class="text">
                                 <span>凱倫</span>
                                 <p class="comment">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
-                                <p class="date">2021/04/18</p>
+                                <time class="date" datetime="2021-04-18">2021/04/18</time>
                             </div>
                         </div>
                         <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
@@ -169,7 +169,7 @@
                             <div class="text">
                                 <span>悠悠</span>
                                 <p class="comment">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
-                                <p class="date">2020/12/25</p>
+                                <time class="date" datetime="2020-12-25">2020/12/25</time>
                             </div>
                         </div>
                         <div class="list-item list-item-25 list-item-md-50 list-item-sm-100">
@@ -179,7 +179,7 @@
                             <div class="text">
                                 <span>Kyuan</span>
                                 <p class="comment">服務很好，品質沒有任何問題，非常喜歡。</p>
-                                <p class="date">2020/10/31</p>
+                                <time class="date" datetime="2020-10-31">2020/10/31</time>
                             </div>
                         </div>
                     </div>
@@ -196,27 +196,25 @@
                 <div class="main-content list-item-50 list-item-md-576px list-item-sm-100">
                 <form action="">
                      <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-                    <ul>
-                        <li>
+                        <div>
                             <label for="name">姓名</label>
                             <input type="text" id="name" required placeholder="陳小明">
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <label for="phone">聯絡電話</label>
                             <input type="tel" id="phone" required placeholder="0912-345-678">
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <label for="email">電子郵件</label>
                             <input type="email" id="email" required placeholder="example@email.com">
-                        </li>
-                        <li>
+                        </div>
                             <label for="opinion">意見反應</label>
                             <textarea type="text" id="opinion" placeholder="請輸入您的意見"  rows="6"></textarea>
-                        </li>
-                        <li class="check">
+                       
+                        <div class="check">
                             <input type="checkbox" name="privacy" id="privacy" required />
                             <label for="privacy">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
-                        </li>
+                        </div>
                     </ul>
                     <button class="submit-btn">確認送出</button>
                 </form>
@@ -235,8 +233,8 @@
                     <li class="list-item"><a href="#">部落格</a></li>
                     <li class="list-item"><a href="#">常見問題</a></li>
                 </ul>
-                <p class="call"><span class="material-symbols-outlined">call</span>0800-000-000 </p>
-                <p class="mail"><span class="material-symbols-outlined">mail</span>glasses@business.com</p>
+                <p class="call"><span class="material-symbols-outlined">call</span><a href="tel:+0800-000-000">0800-000-000</a></p>
+                <p class="mail"><span class="material-symbols-outlined">mail</span><a href="mailto:glasses@business.com">glasses@business.com</a></p>
             </div>
 
             <ul class="social_media">
