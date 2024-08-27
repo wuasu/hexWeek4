@@ -26,6 +26,7 @@
 @media (max-width: 992px) {
   .container {
     max-width: 660px;
+
   }
 }
 
@@ -257,7 +258,7 @@
 }
 
 .co-branding .container {
-  padding: 80px 0px;
+  padding: 80px 12px;
 }
 
 .co-branding-row {
@@ -334,7 +335,7 @@
 }
 
 .recommend .container {
-  padding: 80px 0px;
+  padding: 80px 12px;
 }
 
 .recommend .main-title {
@@ -424,6 +425,7 @@
 .contact form textarea {
   width: 100%;
   padding: 6px 12px;
+  background-color: transparent;
 }
 
 .contact form input:focus,
